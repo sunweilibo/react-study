@@ -1,4 +1,4 @@
-const pkg = require('./package')
+const pkg = require('./package');
 
 
 module.exports = {
@@ -48,13 +48,12 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    transpile: [/^element-ui/],
-    
+    transpile: [/^element-ui/]
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
-      
-    }
+    // extend(config, ctx) {
+
+    // }
   }
-}
+};

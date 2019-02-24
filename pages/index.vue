@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     Welcome to my diary!
-    </section>
+  </section>
 </template>
 
 <script>
