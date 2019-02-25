@@ -21,10 +21,14 @@ module.exports = {
     "vue/max-attributes-per-line": ["error", {
       "singleline": 4,
       "multiline": {
-        "max": 1,
+        "max": 2,
         "allowFirstLine": false
       }
     }],
+    'consistent-return': 0,
+    'no-alert': 0,
+    'no-console': 0,
+    'object-curly-newline': 0,
     'vue/html-closing-bracket-newline': 0,
     'vue/html-self-closing': 0,
     semi: ["error", "always"],
