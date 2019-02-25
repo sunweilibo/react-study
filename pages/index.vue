@@ -5,17 +5,12 @@
         <p class="header-title">
           Welcome to my diary App
         </p>
-        <el-form
-          v-if="isLogin"
-          class="login-form"
-          label-width="80px">
+        <el-form v-if="isLogin" class="login-form" label-width="80px">
           <el-form-item label="登录名">
             <el-input v-model="userName"></el-input>
           </el-form-item>
           <el-form-item label="密码">
-            <el-input
-              v-model="userPassword"
-              type="password">
+            <el-input v-model="userPassword" type="password">
             </el-input>
           </el-form-item>
           <el-form-item>
@@ -32,10 +27,7 @@
             </el-button>
           </el-form-item>
         </el-form>
-        <el-form
-          v-else
-          class="login-form"
-          label-width="80px">
+        <el-form v-else class="login-form" label-width="80px">
           <el-form-item label="登录名">
             <el-input v-model="userName"></el-input>
           </el-form-item>

@@ -18,6 +18,13 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    "vue/max-attributes-per-line": ["error", {
+      "singleline": 4,
+      "multiline": {
+        "max": 1,
+        "allowFirstLine": false
+      }
+    }],
     'vue/html-closing-bracket-newline': 0,
     'vue/html-self-closing': 0,
     semi: ["error", "always"],
