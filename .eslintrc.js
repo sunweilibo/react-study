@@ -14,11 +14,12 @@ module.exports = {
   ],
   // required to lint *.vue files
   plugins: [
-    'html',
     'vue'
   ],
   // add your custom rules here
   rules: {
+    'vue/html-closing-bracket-newline': 0,
+    'vue/html-self-closing': 0,
     semi: ["error", "always"],
     // allow paren-less arrow functions
     'arrow-parens': 0,
