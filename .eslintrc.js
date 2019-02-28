@@ -25,6 +25,7 @@ module.exports = {
         "allowFirstLine": false
       }
     }],
+    'vue/no-use-v-if-with-v-for': 0,
     'consistent-return': 0,
     'no-alert': 0,
     'no-console': 0,
