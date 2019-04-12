@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
+const _760e4cb3 = () => interopDefault(import('../pages/content/index.vue' /* webpackChunkName: "pages/content/index" */))
+const _1258b13a = () => interopDefault(import('../pages/login/index.vue' /* webpackChunkName: "pages/login/index" */))
 const _3201a5c9 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
@@ -65,6 +67,14 @@ export function createRouter() {
     scrollBehavior,
 
     routes: [{
+      path: "/content",
+      component: _760e4cb3,
+      name: "content"
+    }, {
+      path: "/login",
+      component: _1258b13a,
+      name: "login"
+    }, {
       path: "/",
       component: _3201a5c9,
       name: "index"
